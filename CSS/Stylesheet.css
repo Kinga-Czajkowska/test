@@ -1,0 +1,31 @@
+table {
+    width: 80%;
+    border: 10px dotted black;
+    border-collapse: collapse;
+    background: antiquewhite;
+    text-align: center;
+    vertical-align: center;
+    font-size: 25px;
+}
+
+td,
+th {
+    border: 3px solid red;
+    padding: 20px;
+}
+
+.head {
+    color: red;
+}
+
+tbody th {
+    text-decoration: dashed;
+    text-transform: uppercase;
+}
+
+.nazwisko {
+    text-transform: uppercase;
+    font-weight: revert;
+    background-color: aquamarine;
+    color: red;
+}
