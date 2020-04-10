@@ -1,31 +1,155 @@
-table {
-    width: 80%;
-    border: 10px dotted black;
-    border-collapse: collapse;
-    background: antiquewhite;
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background: #1f4e5f;
+    border: 1px solid black;
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+}
+
+.rodzina {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-size: 60px;
     text-align: center;
     vertical-align: center;
-    font-size: 25px;
+    word-spacing: 80px;
+    text-shadow: 3px 3px 3px dodgerblue;
+}
+
+.section1 {
+    border: 1px solid black;
+    width: 100%;
+    height: 450px;
+    padding: 20px;
+    background: #f4f7f7;
+}
+
+
+
+.container_o_nas {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.txt_o_nas {
+    width: 40%;
+    text-align: justify;
+    height: 250px;
+    overflow: auto;
+}
+
+.pic_o_nas {
+    width: 30%;
+    height: 300px;
+}
+
+.section2 {
+    border: 1px solid black;
+    width: 100%;
+    padding: 20px;
+    background: #f4f7f7;
+}
+
+.member {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.article_sport {
+    width: 50%;
+    text-align: justify;
+    height: 250px;
+    overflow: auto;
+}
+
+.pic_sport {
+    width: 400px;
+    height: 250px;
+}
+
+.section3 {
+    border: 1px solid black;
+    width: 100%;
+    background: #f4f7f7;
+}
+table {
+    width: 60%;
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: center;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.table_title {
+    text-transform: uppercase;
+    color: black;
+    font-size: 30px;
+    background-color: #79a8a9;
 }
 
 td,
 th {
-    border: 3px solid red;
+    border: 2px solid black;
     padding: 20px;
 }
 
 .head {
-    color: red;
+    font-weight: bold;
 }
 
-tbody th {
-    text-decoration: dashed;
+th {
     text-transform: uppercase;
+    background-color: #c6e5d9;
 }
 
-.nazwisko {
-    text-transform: uppercase;
-    font-weight: revert;
-    background-color: aquamarine;
-    color: red;
+.section4 {
+    background: #f4f7f7;
+    border: 1px solid black;
+}
+
+.jedzenie {
+    background: #1f4e5f;
+    color: white;
+    padding: 20px;
+    border: 2px solid black
+}
+
+.container_potrawy {
+    display: flex;
+    flex: auto;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+.potrawa {
+    width: 15%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border: 1px solid black;
+    background: #c6e5d9;
+}
+
+.footer {
+    border: 1px solid black;
+    background: #1f4e5f;
+    color: white;
+    font-weight: bold;
+    border-radius: 30%;
+    padding: 20px 30px;
+    margin: 50px;
 }
